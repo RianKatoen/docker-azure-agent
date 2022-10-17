@@ -7,6 +7,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get install -y -qq --no-install-recommend
     apt-utils \
     ca-certificates \
     curl \
+    wget \
     git \
     iputils-ping \
     jq \
