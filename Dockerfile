@@ -21,7 +21,7 @@ ENV TARGETARCH=linux-x64
 
 # Install additional packages
 RUN wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
-RUN DEBIAN_FRONTEND=noninteractive sudo dpkg -i packages-microsoft-prod.deb
+RUN DEBIAN_FRONTEND=noninteractive dpkg -i packages-microsoft-prod.deb
 RUN rm packages-microsoft-prod.deb
         
 RUN DEBIAN_FRONTEND=noninteractive apt-get update
