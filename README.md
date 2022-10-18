@@ -5,6 +5,7 @@ Docker image for running a hosted agent.
 ### :books: Included
 * `dotnet-sdk-3.1`
 * `dotnet-sdk-6.0`
+* `docker-ce`, `docker-ce-cli`, `containerd.io` and `docker-compose-plugin`
 
 
 ### :clipboard: Environment variables
