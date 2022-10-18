@@ -2,6 +2,11 @@
 ### :information_source: Information
 Docker image for running a hosted agent.
 
+### :books: Included
+* `dotnet-sdk-3.1`
+* `dotnet-sdk-6.0`
+
+
 ### :clipboard: Environment variables
 | Name | Description |
 | --- | --- |
