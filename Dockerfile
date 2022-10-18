@@ -45,6 +45,7 @@ RUN DEBIAN_FRONTEND=noninteractive echo \
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get update
 RUN DEBIAN_FRONTEND=noninteractive apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+RUN DEBIAN_FRONTEND=noninteractive service docker start
 
 WORKDIR /azp
 
